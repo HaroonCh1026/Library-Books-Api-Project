@@ -1,15 +1,23 @@
 Book.destroy_all
+Author.destroy_all
+
+author = Author.create!(
+  name: "haroon",
+  email: "haroon@example.com"
+)
 
 Book.create!(
   title: "Ruby Basics",
-  author: "Matz",
-  price: 29.99,
-  published_year: 2024
+  price: 100,
+  published_year: 2024,
+  author: author
 )
 
 Book.create!(
-  title: "Rails Guide",
-  author: "DHH",
-  price: 39.99,
-  published_year: 2023
+  title: "Rails API",
+  price: 200,
+  published_year: 2025,
+  author: author
 )
+
+puts "Seed data added!"
