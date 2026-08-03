@@ -1,5 +1,5 @@
 class AuthorsController < ApplicationController
-  before_action :set_author, only: [:show, :update, :destroy]
+  before_action :set_author, only: [ :show, :update, :destroy ]
 
   # GET /authors
   def index
@@ -38,7 +38,7 @@ class AuthorsController < ApplicationController
     end
   end
 
-  # PUT/PATCH /authors/:id
+  # PUT/PATCH /authors/:id  
 def update
   if @author.update(author_params)
     render json: {

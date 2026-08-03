@@ -1,9 +1,15 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  name: MyString
-  email: MyString
+  name: Ali Khan
+  email: ali@example.com
+  phone: "03001234567"
+  country: Pakistan
+  bio: Test author one
+  active: true
 
 two:
-  name: MyString
-  email: MyString
+  name: John Smith
+  email: john@example.com
+  phone: "03111234567"
+  country: USA
+  bio: Test author two
+  active: true

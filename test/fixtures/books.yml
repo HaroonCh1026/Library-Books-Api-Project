@@ -1,13 +1,23 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
 one:
-  title: MyString
-  author: MyString
-  price: 9.99
-  published_year: 1
+  title: Ruby Basics
+  description: Learn Ruby basics
+  isbn: ISBN001
+  genre: Programming
+  language: English
+  pages: 250
+  price: 1500
+  published_year: 2024
+  stock: 10
+  author: one
 
 two:
-  title: MyString
-  author: MyString
-  price: 9.99
-  published_year: 1
+  title: Rails API
+  description: Learn Rails API development
+  isbn: ISBN002
+  genre: Programming
+  language: English
+  pages: 300
+  price: 2000
+  published_year: 2025
+  stock: 5
+  author: two
